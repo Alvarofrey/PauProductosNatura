@@ -277,8 +277,14 @@ header nav ul li:hover ul {
 .nav_contacto,
 .nav_carrito,
 .nav_productos,
-.nav_inicio {
+.nav_inicio,
+.menu_nav {
     color: black;
+    font-size: 25px;
+}
+
+.Vendido_producto {
+    color: red;
     font-size: 25px;
 }
 
