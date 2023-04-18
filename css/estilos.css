@@ -319,6 +319,7 @@ header nav ul li:hover ul {
 .flex_p_footer {
     font-size: 30px;
     text-align: center;
+    color: black;
 }
 
 .img_notesteo {
@@ -391,3 +392,21 @@ header nav ul li:hover ul {
     }
 
 } */
+.borde_card_jabon {
+    background-color: rgb(143, 153, 126);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 250px;
+    height: auto;
+}
+
+p {
+    color: aliceblue;
+}
+
+.link_numerotel {
+    background-color: black;
+}
