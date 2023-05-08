@@ -45,14 +45,26 @@ body {
     display: flex;
     justify-content: center;
     background-color: #ff6913;
+    text-align: center;
 
 
+}
+
+.flex_imagen_logo {
+    display: flex;
+    justify-content: center;
 }
 
 .img__logo {
     text-align: center;
     width: 150px;
 
+}
+
+.enviosgratis {
+    color: black;
+    font-size: 25px;
+    text-align: center;
 }
 
 
@@ -235,6 +247,7 @@ header nav ul li:hover ul {
     color: black;
     font-size: 35px;
 }
+
 
 .Vendido_producto {
     color: #ff6913;
