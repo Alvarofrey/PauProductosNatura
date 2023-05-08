@@ -1,15 +1,10 @@
-@font-face {
-    font-family: 'SansSerifs';
-    src: url(../fonts/SansSerif.ttf);
-}
-
 body {
-    background-color: rgb(117, 126, 102);
+    background-color: rgba(255, 255, 255, 0.952);
 
 }
 
 .dropdown-menu-dark {
-    background-color: rgb(117, 126, 102);
+    background-color: #ff6913;
 
 }
 
@@ -19,41 +14,15 @@ body {
 .cremas_1,
 .shampoo_1 {
     color: black;
+    font-size: 20px;
 }
 
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'SansSerif';
 }
 
-
-/* video you tube y texto */
-/* .video__texto {
-    padding: 60px 20px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 20px;
-    grid-template-rows: auto;
-    grid-template-areas: 'video' 'texto';
-} */
-.video__texto {
-    display: flex;
-    flex-direction: row;
-}
-
-.p__textonatura {
-    padding-top: 25px;
-    font-size: 19px;
-    color: black;
-    grid-area: "texto";
-}
-
-.video {
-    padding-top: 90px;
-    grid-area: "video";
-}
 
 
 .main__margin {
@@ -73,30 +42,23 @@ body {
 }
 
 .div__logo {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     background-color: #ff6913;
 
 
 }
 
 .img__logo {
-    width: 300px;
+    text-align: center;
+    width: 150px;
 
 }
 
 
 
-.asesornatura,
-.asesornatura_1,
-.asesornatura_2 {
-    font: 16px sans-serif;
-    padding-top: 85px;
 
-}
 
-label {
-    font: 20px sans-serif;
-}
 
 
 .comprar {
@@ -104,13 +66,7 @@ label {
     padding-bottom: 50px;
 }
 
-/* header */
 
-/* header {
-    display: flex;
-    flex-direction: column;
-    font-size: 30px;
-} */
 .menu__ {
     padding-top: 50px;
 
@@ -204,16 +160,25 @@ header nav ul li:hover ul {
 
 
 .tipo-producto,
-.estilocarrito,
-.tipo_contactenos {
-    color: #8a0505;
+.estilocarrito {
+    color: black;
     padding-top: 20px;
     text-align: center;
     padding-bottom: 20px;
+    font-size: 30px;
 }
 
+.tipo_contactenos {
+    color: black;
+    padding-top: 120px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 45px;
+}
+
+
 .estiloofertas {
-    color: #8a0505;
+    color: black;
     padding-top: 20px;
     text-align: center;
     padding-bottom: 20px;
@@ -228,10 +193,9 @@ header nav ul li:hover ul {
 .boton__pagar,
 .boton__enviar__e,
 .boton_finalizar {
-    background-color: black;
+    background-color: #ff6913;
     border-radius: 18px;
-    font-family: Arial;
-    color: #f80202;
+    color: black;
     font-size: 20px;
     text-decoration: none;
 }
@@ -260,18 +224,7 @@ header nav ul li:hover ul {
     animation-delay: 0s;
 }
 
-.flex__gift2 {
-    display: flex;
-    justify-content: right;
-    margin-right: 48px;
 
-}
-
-.gift__2 {
-    width: 150px;
-    border-radius: 30px;
-    height: 100px;
-}
 
 .nav_ofertas,
 .nav_contacto,
@@ -280,11 +233,11 @@ header nav ul li:hover ul {
 .nav_inicio,
 .menu_nav {
     color: black;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .Vendido_producto {
-    color: red;
+    color: #ff6913;
     font-size: 25px;
 }
 
@@ -309,7 +262,7 @@ header nav ul li:hover ul {
 }
 
 .gradiante_footer {
-    background: linear-gradient(to top, lime, cyan);
+    background-color: #ff6913;
 }
 
 .flex_footer_pimg {
@@ -333,7 +286,7 @@ header nav ul li:hover ul {
 }
 
 .img_instagram {
-    width: 40px;
+    width: 30px;
     border-radius: 3cm;
 }
 
@@ -353,48 +306,8 @@ header nav ul li:hover ul {
     padding-top: 50px;
 }
 
-.imagen_tilde {
-    width: 30px;
-}
-
-/* .main__imgfondo {
-    background: url(../img/HD-wallpaper-amazon-river-mountains-amazon-nature-river-sunset-trees-sky.jpg);
-    background-position: center;
-    background-size: cover;
-} */
-
-
-/* @media screen and (max-width: 520px) {
-    .menu__ {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .video__texto {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .video {
-        padding-top: 60px;
-        padding-bottom: 50px;
-    }
-
-
-} */
-
-/* @media screen and (max-width: 620px) {
-    .carrito__main {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-} */
 .borde_card_jabon {
-    background-color: rgb(143, 153, 126);
+    background-color: rgba(167, 167, 167, 0.514);
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -403,13 +316,17 @@ header nav ul li:hover ul {
     width: 250px;
     height: auto;
     border-spacing: 30px 30px;
-    border: 5px solid rgb(130, 139, 113);
+    border: 5px solid rgba(161, 161, 161, 0.281);
+    text-align: center;
 }
 
 p {
-    color: aliceblue;
+    color: black;
+    font-size: 23px;
 }
 
 .link_numerotel {
-    background-color: black;
+    background-color: white;
+    color: black;
+    font-size: 23px;
 }
