@@ -171,13 +171,21 @@ header nav ul li:hover ul {
 }
 
 
-.tipo-producto,
 .estilocarrito {
     color: black;
     padding-top: 20px;
     text-align: center;
     padding-bottom: 20px;
     font-size: 30px;
+}
+
+.tipo-producto {
+    color: #ff6913;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .tipo_contactenos {
@@ -205,11 +213,13 @@ header nav ul li:hover ul {
 .boton__pagar,
 .boton__enviar__e,
 .boton_finalizar {
+    text-align: center;
     background-color: #ff6913;
     border-radius: 18px;
     color: black;
-    font-size: 20px;
+    font-size: 21px;
     text-decoration: none;
+
 }
 
 .precioanterior {
