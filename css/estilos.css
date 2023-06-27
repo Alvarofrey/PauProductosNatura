@@ -1,10 +1,28 @@
 body {
-    background-color: rgba(255, 255, 255, 0.952);
+    /* background-color: rgba(255, 255, 255, 0.952); */
+    background-color: rgb(247, 0, 0);
 
 }
 
+@keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
+
+body #contenedor-nieve {
+    background-image: url(http://lh3.googleusercontent.com/-k6mAvDmeu4Q/UMefU6JI32I/AAAAAAAADpM/zdjTclnGDhM/s500/snow.png), url(http://lh6.googleusercontent.com/-8wOkQAdxfgg/UMefVfmte0I/AAAAAAAADpU/aE4HxfiXD88/s400/snow3.png), url(http://lh5.googleusercontent.com/-fhO2tXwKP9M/UMefVCohCOI/AAAAAAAADpQ/nFVnzK1W0xw/s300/snow2.png);
+    animation: snow 20s linear infinite;
+}
+
+
 .dropdown-menu-dark {
-    background-color: #ff6913;
+    background-color: rgb(5, 117, 5);
+    /* background-color: #ff6913; */
 
 }
 
@@ -13,7 +31,8 @@ body {
 .perfume_1,
 .cremas_1,
 .shampoo_1 {
-    color: black;
+    color: white;
+    /* color: black; */
     font-size: 20px;
 }
 
@@ -44,7 +63,8 @@ body {
 .div__logo {
     display: flex;
     justify-content: center;
-    background-color: #ff6913;
+    background-color: rgb(247, 0, 0);
+    /* background-color: #ff6913; */
     text-align: center;
 
 
@@ -59,10 +79,12 @@ body {
     text-align: center;
     width: 150px;
 
+
 }
 
 .enviosgratis {
-    color: black;
+    color: white;
+    /* color: black; */
     font-size: 25px;
     text-align: center;
 }
@@ -180,7 +202,8 @@ header nav ul li:hover ul {
 }
 
 .tipo-producto {
-    color: #ff6913;
+    color: white;
+    /* color: #ff6913; */
     padding-top: 20px;
     text-align: center;
     padding-bottom: 20px;
@@ -189,7 +212,8 @@ header nav ul li:hover ul {
 }
 
 .tipo_contactenos {
-    color: black;
+    color: white;
+    /* color: black; */
     padding-top: 120px;
     text-align: center;
     padding-bottom: 20px;
@@ -198,7 +222,8 @@ header nav ul li:hover ul {
 
 
 .estiloofertas {
-    color: black;
+    color: white;
+    /* color: black; */
     padding-top: 20px;
     text-align: center;
     padding-bottom: 20px;
@@ -214,9 +239,11 @@ header nav ul li:hover ul {
 .boton__enviar__e,
 .boton_finalizar {
     text-align: center;
-    background-color: #ff6913;
+    background-color: black;
+    /* background-color: #ff6913; */
     border-radius: 18px;
-    color: black;
+    color: rgb(5, 117, 5);
+    /* color: black; */
     font-size: 21px;
     text-decoration: none;
 
@@ -239,6 +266,8 @@ header nav ul li:hover ul {
 }
 
 .gift {
+    /* color: black; */
+    color: white;
     animation-name: gift;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
@@ -254,7 +283,8 @@ header nav ul li:hover ul {
 .nav_productos,
 .nav_inicio,
 .menu_nav {
-    color: black;
+    color: white;
+    /* color: black; */
     font-size: 35px;
 }
 
@@ -285,7 +315,8 @@ header nav ul li:hover ul {
 }
 
 .gradiante_footer {
-    background-color: #ff6913;
+    background: linear-gradient(to top, #009e00, red)
+        /* background-color: #ff6913; */
 }
 
 .flex_footer_pimg {
@@ -296,7 +327,8 @@ header nav ul li:hover ul {
 .flex_p_footer {
     font-size: 30px;
     text-align: center;
-    color: black;
+    color: white;
+    /* color: black; */
 }
 
 .img_notesteo {
@@ -330,7 +362,8 @@ header nav ul li:hover ul {
 }
 
 .borde_card_jabon {
-    background-color: rgba(167, 167, 167, 0.514);
+    background-color: rgb(5, 117, 5);
+    /* background-color: rgba(167, 167, 167, 0.514); */
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -344,17 +377,31 @@ header nav ul li:hover ul {
 }
 
 p {
-    color: black;
+    color: white;
+    /* color: black; */
     font-size: 23px;
 }
 
 .link_numerotel {
-    background-color: white;
-    color: black;
+    background-color: rgb(5, 117, 5);
+    /* background-color: white; */
+    /* color: black; */
+    color: white;
     font-size: 23px;
 }
 
 .divdebotonesjs {
     text-align: center;
 
+}
+
+h2 {
+    /* color: black; */
+    color: white;
+    ;
+}
+
+h3 {
+    color: white;
+    /* color: black; */
 }
